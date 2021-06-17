@@ -1,3 +1,22 @@
 .todo-list {
     background-color: white;
 }
+
+.container {
+    background-color: white;
+    height: 500px;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    display: none;
+    
+}
+
+.todo:hover button {
+    display: block;
+    color: red;
+}
